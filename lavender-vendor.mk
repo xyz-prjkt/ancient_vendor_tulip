@@ -1736,5 +1736,6 @@ PRODUCT_PACKAGES += \
     WfdCommon \
     vendor.qti.gnss@3.0-service \
     FingerprintExtensionService \
-    QFingerprintService
+    QFingerprintService \
+    chargeonlymode
 
