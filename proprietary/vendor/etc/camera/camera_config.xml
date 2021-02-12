@@ -1,3 +1,5 @@
+
+
 <!--
   Copyright (c) 2016-2017 Qualcomm Technologies, Inc.
   All Rights Reserved.
@@ -81,282 +83,204 @@ LensInfo : Information of the lens present in the module.
 
 *VARIABLES MARKED WITH ASTRICK (*) ARE MANDATORY.
 
+
 -->
 
 <CameraConfigurationRoot>
-<!--- back main camera imx486 -->
   <CameraModuleConfig>
-    <CameraId>1</CameraId>
-    <SensorName>lavender_imx486_ofilm_i</SensorName>
-    <ActuatorName>lavender_imx486_ofilm_i_bu64982</ActuatorName>
-    <EepromName>lavender_imx486_ofilm_i</EepromName>
-    <FlashName>pmic</FlashName>
-    <ChromatixName>lavender_imx486_ofilm_i_chromatix</ChromatixName>
+    <CameraId>0</CameraId>
+    <SensorName>tulip_s5k5e8_ofilm_i</SensorName>
+	<EepromName>tulip_s5k5e8_ofilm_i</EepromName>
+    <ChromatixName_china>tulip_s5k5e8_ofilm_global_i_chromatix</ChromatixName_china>
+	<ChromatixName>tulip_s5k5e8_ofilm_india_i_chromatix</ChromatixName>
     <ModesSupported>1</ModesSupported>
-    <Position>BACK</Position>
+    <Position>BACK_AUX</Position>
     <MountAngle>90</MountAngle>
     <CSIInfo>
       <CSIDCore>1</CSIDCore>
-      <LaneMask>0x1F</LaneMask>
-      <LaneAssign>0x4320</LaneAssign>
+      <LaneMask>0x07</LaneMask>
+      <LaneAssign>0x20</LaneAssign>
       <ComboMode>0</ComboMode>
     </CSIInfo>
     <LensInfo>
-      <FocalLength>3.84</FocalLength>
+      <FocalLength>1.98</FocalLength>
       <FNumber>2.2</FNumber>
-      <TotalFocusDistance>4.0</TotalFocusDistance>
-      <HorizontalViewAngle>78.1</HorizontalViewAngle>
-      <VerticalViewAngle>57.6</VerticalViewAngle>
-      <MinFocusDistance>0.1</MinFocusDistance>
-    </LensInfo>
-  </CameraModuleConfig>
-
-  <CameraModuleConfig>
-    <CameraId>1</CameraId>
-    <SensorName>lavender_imx486_ofilm_i_dw9714</SensorName>
-    <ActuatorName>lavender_imx486_ofilm_i_dw9714</ActuatorName>
-    <EepromName>lavender_imx486_ofilm_i_dw9714</EepromName>
-    <FlashName>pmic</FlashName>
-    <ChromatixName>lavender_imx486_ofilm_i_dw9714_chromatix</ChromatixName>
-    <ModesSupported>1</ModesSupported>
-    <Position>BACK</Position>
-    <MountAngle>90</MountAngle>
-    <CSIInfo>
-      <CSIDCore>1</CSIDCore>
-      <LaneMask>0x1F</LaneMask>
-      <LaneAssign>0x4320</LaneAssign>
-      <ComboMode>0</ComboMode>
-    </CSIInfo>
-    <LensInfo>
-      <FocalLength>3.84</FocalLength>
-      <FNumber>2.2</FNumber>
-      <TotalFocusDistance>4.0</TotalFocusDistance>
-      <HorizontalViewAngle>66.1</HorizontalViewAngle>
-      <VerticalViewAngle>52</VerticalViewAngle>
-      <MinFocusDistance>0.1</MinFocusDistance>
-    </LensInfo>
-  </CameraModuleConfig>
-  <CameraModuleConfig>
-    <CameraId>1</CameraId>
-    <SensorName>lavender_s5kgm1_ofilm_i</SensorName>
-    <ActuatorName>lavender_s5kgm1_ofilm_i_dw9800</ActuatorName>
-    <EepromName>lavender_s5kgm1sp_ofilm_i</EepromName>
-    <FlashName>pmic</FlashName>
-	<ChromatixName_india>lavender_s5kgm1_ofilm_india_i_chromatix</ChromatixName_india>
-    <ChromatixName>lavender_s5kgm1_ofilm_i_chromatix</ChromatixName>
-    <ModesSupported>1</ModesSupported>
-    <Position>BACK</Position>
-    <MountAngle>90</MountAngle>
-    <CSIInfo>
-      <CSIDCore>1</CSIDCore>
-      <LaneMask>0x1F</LaneMask>
-      <LaneAssign>0x4320</LaneAssign>
-      <ComboMode>0</ComboMode>
-    </CSIInfo>
-    <LensInfo>
-      <FocalLength>4.74</FocalLength>
-      <FNumber>1.8</FNumber>
-      <TotalFocusDistance>4.0</TotalFocusDistance>
-      <HorizontalViewAngle>67.2</HorizontalViewAngle>
-      <VerticalViewAngle>53.2</VerticalViewAngle>
-      <MinFocusDistance>0.1</MinFocusDistance>
-    </LensInfo>
-  </CameraModuleConfig>
-   <CameraModuleConfig>
-    <CameraId>1</CameraId>
-    <SensorName>lavender_s5kgm1_sunny_ii</SensorName>
-    <ActuatorName>lavender_s5kgm1_sunny_ii_dw9800</ActuatorName>
-    <EepromName>lavender_s5kgm1sp_sunny_ii</EepromName>
-    <FlashName>pmic</FlashName>
-	<ChromatixName_india>lavender_s5kgm1_sunny_india_ii_chromatix</ChromatixName_india>
-    <ChromatixName>lavender_s5kgm1_sunny_ii_chromatix</ChromatixName>
-    <ModesSupported>1</ModesSupported>
-    <Position>BACK</Position>
-    <MountAngle>90</MountAngle>
-    <CSIInfo>
-      <CSIDCore>1</CSIDCore>
-      <LaneMask>0x1F</LaneMask>
-      <LaneAssign>0x4320</LaneAssign>
-      <ComboMode>0</ComboMode>
-    </CSIInfo>
-    <LensInfo>
-      <FocalLength>4.74</FocalLength>
-      <FNumber>1.8</FNumber>
-      <TotalFocusDistance>4.0</TotalFocusDistance>
-      <HorizontalViewAngle>67.2</HorizontalViewAngle>
-      <VerticalViewAngle>53.2</VerticalViewAngle>
-      <MinFocusDistance>0.1</MinFocusDistance>
-    </LensInfo>
-  </CameraModuleConfig>
-<!--- back aux camera -->
-  <CameraModuleConfig>
-    <CameraId>1</CameraId>
-    <SensorName>lavender_ov12a10_sunny_ii</SensorName>
-    <ActuatorName>lavender_ov12a10_sunny_ii_dw9714</ActuatorName>
-    <EepromName>lavender_ov12a10_sunny_ii</EepromName>
-    <FlashName>pmic</FlashName>
-    <ChromatixName>lavender_ov12a10_sunny_ii_chromatix</ChromatixName>
-    <ModesSupported>1</ModesSupported>
-    <Position>BACK</Position>
-    <MountAngle>90</MountAngle>
-    <CSIInfo>
-      <CSIDCore>1</CSIDCore>
-      <LaneMask>0x1F</LaneMask>
-      <LaneAssign>0x4320</LaneAssign>
-      <ComboMode>0</ComboMode>
-    </CSIInfo>
-    <LensInfo>
-      <FocalLength>3.8</FocalLength>
-      <FNumber>2.2</FNumber>
-      <TotalFocusDistance>4.0</TotalFocusDistance>
-      <HorizontalViewAngle>78.1</HorizontalViewAngle>
-      <VerticalViewAngle>57.6</VerticalViewAngle>
+      <TotalFocusDistance>1.9</TotalFocusDistance>
+      <HorizontalViewAngle>85.0</HorizontalViewAngle>
+      <VerticalViewAngle>63.0</VerticalViewAngle>
       <MinFocusDistance>0.1</MinFocusDistance>
     </LensInfo>
   </CameraModuleConfig>
   <CameraModuleConfig>
     <CameraId>0</CameraId>
-    <SensorName>lavender_ov02a10_ofilm_i</SensorName>
-    <EepromName>lavender_ov02a10_ofilm_i</EepromName>
-    <FlashName>pmic</FlashName>
-    <ChromatixName>lavender_ov02a10_ofilm_i_chromatix</ChromatixName>
+    <SensorName>tulip_s5k5e8_qtech_ii</SensorName>
+	<EepromName>tulip_s5k5e8_qtech_ii</EepromName>
+    <ChromatixName_china>tulip_s5k5e8_qtech_global_ii_chromatix</ChromatixName_china>
+	<ChromatixName>tulip_s5k5e8_qtech_india_ii_chromatix</ChromatixName>
     <ModesSupported>1</ModesSupported>
     <Position>BACK_AUX</Position>
     <MountAngle>90</MountAngle>
     <CSIInfo>
-       <CSIDCore>0</CSIDCore>
-      <LaneMask>0x7</LaneMask>
-      <LaneAssign>0x4320</LaneAssign>
-       <ComboMode>0</ComboMode>
-     </CSIInfo>
-     <LensInfo>
-       <FocalLength>1.85</FocalLength>
-       <FNumber>2.2</FNumber>
-       <TotalFocusDistance>4.0</TotalFocusDistance>
-       <HorizontalViewAngle>74.7</HorizontalViewAngle>
-       <VerticalViewAngle>59.4</VerticalViewAngle>
-       <MinFocusDistance>0.1</MinFocusDistance>
-     </LensInfo>
-   </CameraModuleConfig>
-   <CameraModuleConfig>
-    <CameraId>0</CameraId>
-    <SensorName>lavender_ov02a10_sunny_ii</SensorName>
-    <EepromName>lavender_ov02a10_sunny_ii</EepromName>
+      <CSIDCore>1</CSIDCore>
+      <LaneMask>0x07</LaneMask>
+      <LaneAssign>0x20</LaneAssign>
+      <ComboMode>0</ComboMode>
+    </CSIInfo>
+    <LensInfo>
+      <FocalLength>1.98</FocalLength>
+      <FNumber>2.2</FNumber>
+      <TotalFocusDistance>1.9</TotalFocusDistance>
+      <HorizontalViewAngle>85.0</HorizontalViewAngle>
+      <VerticalViewAngle>63.0</VerticalViewAngle>
+      <MinFocusDistance>0.1</MinFocusDistance>
+    </LensInfo>
+  </CameraModuleConfig>
+  <CameraModuleConfig>
+    <CameraId>1</CameraId>
+    <SensorName>tulip_s5k2l7_ofilm_i</SensorName>
+    <ActuatorName>tulip_s5k2l7_ofilm_i_ak7374</ActuatorName>
+    <EepromName>tulip_s5k2l7_ofilm_i</EepromName>
     <FlashName>pmic</FlashName>
-    <ChromatixName>lavender_ov02a10_sunny_ii_chromatix</ChromatixName>
+    <ChromatixName_china>tulip_s5k2l7_ofilm_global_i_chromatix</ChromatixName_china>
+    <ChromatixName>tulip_s5k2l7_ofilm_india_i_chromatix</ChromatixName>
     <ModesSupported>1</ModesSupported>
-    <Position>BACK_AUX</Position>
-    <MountAngle>90</MountAngle>
-    <CSIInfo>
-       <CSIDCore>0</CSIDCore>
-      <LaneMask>0x7</LaneMask>
-      <LaneAssign>0x4320</LaneAssign>
-       <ComboMode>0</ComboMode>
-     </CSIInfo>
-     <LensInfo>
-       <FocalLength>1.85</FocalLength>
-       <FNumber>2.2</FNumber>
-       <TotalFocusDistance>4.0</TotalFocusDistance>
-       <HorizontalViewAngle>74.7</HorizontalViewAngle>
-       <VerticalViewAngle>69.4</VerticalViewAngle>
-       <MinFocusDistance>0.1</MinFocusDistance>
-     </LensInfo>
-   </CameraModuleConfig>
-   <CameraModuleConfig>
-    <CameraId>0</CameraId>
-    <SensorName>lavender_s5k5e8_ofilm_i</SensorName>
-    <EepromName>lavender_s5k5e8_ofilm_i</EepromName>
-    <ChromatixName>lavender_s5k5e8_ofilm_cn_i_chromatix</ChromatixName>
-    <ModesSupported>1</ModesSupported>
-    <Position>BACK_AUX</Position>
+    <Position>BACK</Position>
     <MountAngle>90</MountAngle>
     <CSIInfo>
       <CSIDCore>0</CSIDCore>
-      <LaneMask>0x7</LaneMask>
+      <LaneMask>0x1F</LaneMask>
       <LaneAssign>0x4320</LaneAssign>
       <ComboMode>0</ComboMode>
     </CSIInfo>
     <LensInfo>
-      <FocalLength>1.85</FocalLength>
-      <FNumber>2.2</FNumber>
-      <TotalFocusDistance>1.9</TotalFocusDistance>
-      <HorizontalViewAngle>74.7</HorizontalViewAngle>
-      <VerticalViewAngle>59.4</VerticalViewAngle>
+      <FocalLength>3.94</FocalLength>
+      <FNumber>1.9</FNumber>
+      <TotalFocusDistance>2.91</TotalFocusDistance>
+      <HorizontalViewAngle>70.4</HorizontalViewAngle>
+      <VerticalViewAngle>55.7</VerticalViewAngle>
       <MinFocusDistance>0.1</MinFocusDistance>
     </LensInfo>
   </CameraModuleConfig>
-   <CameraModuleConfig>
-    <CameraId>0</CameraId>
-    <SensorName>lavender_s5k5e8_sunny_ii</SensorName>
-    <EepromName>lavender_s5k5e8_sunny_ii</EepromName>
-    <ChromatixName>lavender_s5k5e8_sunny_cn_ii_chromatix</ChromatixName>
+  <CameraModuleConfig>
+    <CameraId>1</CameraId>
+    <SensorName>tulip_s5k2l7_qtech_ii</SensorName>
+    <ActuatorName>tulip_s5k2l7_qtech_ii_ak7374</ActuatorName>
+    <EepromName>tulip_s5k2l7_qtech_ii</EepromName>
+    <FlashName>pmic</FlashName>
+    <ChromatixName_china>tulip_s5k2l7_qtech_global_ii_chromatix</ChromatixName_china>
+    <ChromatixName>tulip_s5k2l7_qtech_india_ii_chromatix</ChromatixName>
     <ModesSupported>1</ModesSupported>
-    <Position>BACK_AUX</Position>
+    <Position>BACK</Position>
     <MountAngle>90</MountAngle>
     <CSIInfo>
       <CSIDCore>0</CSIDCore>
-      <LaneMask>0x7</LaneMask>
+      <LaneMask>0x1F</LaneMask>
       <LaneAssign>0x4320</LaneAssign>
       <ComboMode>0</ComboMode>
     </CSIInfo>
     <LensInfo>
-      <FocalLength>1.85</FocalLength>
-      <FNumber>2.2</FNumber>
-      <TotalFocusDistance>1.9</TotalFocusDistance>
-      <HorizontalViewAngle>74.7</HorizontalViewAngle>
-      <VerticalViewAngle>59.4</VerticalViewAngle>
+      <FocalLength>3.94</FocalLength>
+      <FNumber>1.9</FNumber>
+      <TotalFocusDistance>2.91</TotalFocusDistance>
+      <HorizontalViewAngle>70.4</HorizontalViewAngle>
+      <VerticalViewAngle>55.7</VerticalViewAngle>
       <MinFocusDistance>0.1</MinFocusDistance>
     </LensInfo>
   </CameraModuleConfig>
-<!--- front camera -->
   <CameraModuleConfig>
-    <CameraId>2</CameraId>
-    <SensorName>lavender_ov13855_ofilm_i</SensorName>
-    <ChromatixName_india>lavender_ov13855_ofilm_india_i_chromatix</ChromatixName_india>
-    <ChromatixName_global>lavender_ov13855_ofilm_global_i_chromatix</ChromatixName_global>
-    <ChromatixName>lavender_ov13855_ofilm_i_chromatix</ChromatixName>
-    <EepromName>lavender_ov13855_ofilm_i</EepromName>
+    <CameraId>3</CameraId>
+    <SensorName>tulip_ov02a10_ofilm_ii</SensorName>
+	<EepromName>tulip_ov02a10_ofilm_ii</EepromName>
+	<ChromatixName_china>tulip_ov02a10_ofilm_global_ii_chromatix</ChromatixName_china>
+    <ChromatixName>tulip_ov02a10_ofilm_india_ii_chromatix</ChromatixName>
     <ModesSupported>1</ModesSupported>
-    <Position>FRONT</Position>
+    <Position>FRONT_AUX</Position>
     <MountAngle>270</MountAngle>
     <CSIInfo>
-      <CSIDCore>2</CSIDCore>
-      <LaneMask>0x1F</LaneMask>
-      <LaneAssign>0x4320</LaneAssign>
-      <ComboMode>0</ComboMode>
+      <CSIDCore>1</CSIDCore>
+      <LaneMask>0x18</LaneMask>
+      <LaneAssign>0x3</LaneAssign>
+      <ComboMode>1</ComboMode>
     </CSIInfo>
     <LensInfo>
-      <FocalLength>3.51</FocalLength>
-      <FNumber>2.0</FNumber>
-      <TotalFocusDistance>3.5</TotalFocusDistance>
-      <HorizontalViewAngle>65.9</HorizontalViewAngle>
-      <VerticalViewAngle>51.8</VerticalViewAngle>
+      <FocalLength>1.85</FocalLength>
+      <FNumber>2.2</FNumber>
+      <TotalFocusDistance>1.85</TotalFocusDistance>
+      <HorizontalViewAngle>85.4</HorizontalViewAngle>
+      <VerticalViewAngle>51.6</VerticalViewAngle>
+      <MinFocusDistance>0.1</MinFocusDistance>
+    </LensInfo>
+  </CameraModuleConfig>
+  <CameraModuleConfig>
+    <CameraId>3</CameraId>
+    <SensorName>tulip_ov02a10_sunny_i</SensorName>
+	<EepromName>tulip_ov02a10_sunny_i</EepromName>
+	<ChromatixName_china>tulip_ov02a10_sunny_global_i_chromatix</ChromatixName_china>
+    <ChromatixName>tulip_ov02a10_sunny_india_i_chromatix</ChromatixName>
+    <ModesSupported>1</ModesSupported>
+    <Position>FRONT_AUX</Position>
+    <MountAngle>270</MountAngle>
+    <CSIInfo>
+      <CSIDCore>1</CSIDCore>
+      <LaneMask>0x18</LaneMask>
+      <LaneAssign>0x3</LaneAssign>
+      <ComboMode>1</ComboMode>
+    </CSIInfo>
+    <LensInfo>
+      <FocalLength>1.85</FocalLength>
+      <FNumber>2.2</FNumber>
+      <TotalFocusDistance>1.85</TotalFocusDistance>
+      <HorizontalViewAngle>85.4</HorizontalViewAngle>
+      <VerticalViewAngle>51.6</VerticalViewAngle>
       <MinFocusDistance>0.1</MinFocusDistance>
     </LensInfo>
   </CameraModuleConfig>
   <CameraModuleConfig>
     <CameraId>2</CameraId>
-    <SensorName>lavender_ov13855_sunny_ii</SensorName>
-    <ChromatixName_india>lavender_ov13855_sunny_india_ii_chromatix</ChromatixName_india>
-    <ChromatixName_global>lavender_ov13855_sunny_global_ii_chromatix</ChromatixName_global>
-    <ChromatixName>lavender_ov13855_sunny_ii_chromatix</ChromatixName>
-    <EepromName>lavender_ov13855_sunny_ii</EepromName>
+    <SensorName>tulip_s5k3T1_sunny_i</SensorName>
+	<EepromName>tulip_s5k3T1_sunny_i</EepromName>
+	<ChromatixName_china>tulip_s5k3T1_sunny_global_i_chromatix</ChromatixName_china>
+    <ChromatixName>tulip_s5k3T1_sunny_india_i_chromatix</ChromatixName> 
     <ModesSupported>1</ModesSupported>
     <Position>FRONT</Position>
     <MountAngle>270</MountAngle>
     <CSIInfo>
-      <CSIDCore>2</CSIDCore>
-      <LaneMask>0x1F</LaneMask>
-      <LaneAssign>0x4320</LaneAssign>
-      <ComboMode>0</ComboMode>
+	  <CSIDCore>2</CSIDCore>
+	  <LaneMask>0x1F</LaneMask>
+	  <LaneAssign>0x4320</LaneAssign>
+	  <ComboMode>0</ComboMode>
     </CSIInfo>
     <LensInfo>
-      <FocalLength>3.51</FocalLength>
-      <FNumber>2.0</FNumber>
-      <TotalFocusDistance>3.5</TotalFocusDistance>
-      <HorizontalViewAngle>65.9</HorizontalViewAngle>
-      <VerticalViewAngle>51.8</VerticalViewAngle>
-      <MinFocusDistance>0.1</MinFocusDistance>
+	  <FocalLength>3.56</FocalLength>
+	  <FNumber>2.0</FNumber>
+	  <TotalFocusDistance>3.56</TotalFocusDistance>
+	  <HorizontalViewAngle>66.0</HorizontalViewAngle>
+	  <VerticalViewAngle>52.0</VerticalViewAngle>
+	  <MinFocusDistance>0.1</MinFocusDistance>
     </LensInfo>
-  </CameraModuleConfig>
+    </CameraModuleConfig>
+	<CameraModuleConfig>
+    <CameraId>2</CameraId>
+    <SensorName>tulip_s5k3T1_ofilm_ii</SensorName>
+	<EepromName>tulip_s5k3T1_ofilm_ii</EepromName>
+	<ChromatixName_china>tulip_s5k3T1_ofilm_global_ii_chromatix</ChromatixName_china>
+    <ChromatixName>tulip_s5k3T1_ofilm_india_ii_chromatix</ChromatixName>
+    <ModesSupported>1</ModesSupported>
+    <Position>FRONT</Position>
+    <MountAngle>270</MountAngle>
+    <CSIInfo>
+	  <CSIDCore>2</CSIDCore>
+	  <LaneMask>0x1F</LaneMask>
+	  <LaneAssign>0x4320</LaneAssign>
+	  <ComboMode>0</ComboMode>
+    </CSIInfo>
+    <LensInfo>
+	  <FocalLength>3.56</FocalLength>
+	  <FNumber>2.0</FNumber>
+	  <TotalFocusDistance>3.56</TotalFocusDistance>
+	  <HorizontalViewAngle>65.0</HorizontalViewAngle>
+	  <VerticalViewAngle>50.8</VerticalViewAngle>
+	  <MinFocusDistance>0.1</MinFocusDistance>
+    </LensInfo>
+    </CameraModuleConfig>
 </CameraConfigurationRoot>
